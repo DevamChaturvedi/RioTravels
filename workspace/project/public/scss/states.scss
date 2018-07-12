@@ -1,0 +1,99 @@
+
+
+
+
+
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
+
+
+body {
+  background: #fcfcfc;
+  margin: 0;
+}
+
+
+#carouselExampleIndicators .carousel-caption {
+   top: 50%;
+transform: translateY(-50%);
+bottom: initial;
+font-family: 'Georgia header';
+font-size: 90%;
+font-weight: 700;
+}
+
+.card-deck {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width:900px;
+  min-width: 900px;
+  margin-left: 220px;
+}
+
+
+.container-fluid {
+  margin-top: -50px;
+}
+
+
+.carouselExampleIndicators {
+  margin-bottom: 30px;
+}
+.footer {
+  background: #061D25;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
